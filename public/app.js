@@ -49,7 +49,7 @@ function createTodo() {
 function removeTodo(todo) {
     var clickedId = todo.data('id');
     var deleteUrl = '/api/todos/' + clickedId;
-    $ajax({
+    $.ajax({
             method: 'DELETE',
             url: deleteUrl
         })
