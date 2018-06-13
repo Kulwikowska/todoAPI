@@ -4,7 +4,7 @@ body {
     background: hsl(298, 37%, 82%);
 }
 
-***************** HEADER ******************* header {
+header {
     text-align: center;
 }
 
@@ -24,7 +24,7 @@ header h2 {
     font-weight: 300;
 }
 
-******************** FORM ********************** .form {
+.form {
     width: 800px;
     margin: 50px auto 20px;
 }
@@ -41,7 +41,7 @@ header h2 {
     color: #34495e;
 }
 
-********************** LIST ************************ .list {
+.list {
     width: 800px;
     margin: 0 auto;
 }
